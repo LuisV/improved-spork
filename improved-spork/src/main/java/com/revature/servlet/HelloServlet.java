@@ -11,6 +11,6 @@ public class HelloServlet extends HttpServlet{
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
 		throws IOException, ServletException {
-		resp.getWriter().write(" I NEED TO WORK ON MY PROJECT <br> Hello! This is an app. Welcome to Improved Spork!");
+		resp.getWriter().write(" I NEED TO WORK ON MY PROJECT <br> Hello! Goodbye! This is an app. Welcome to Improved Spork!");
 	}
 }
